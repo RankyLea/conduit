@@ -1,0 +1,9 @@
+Regisztrávió
+Bejelentkezés
+Beállítások módosítása
+Új bejegyzés írása
+Tag hozzáadása a bejegyzéshez
+Kedvelt tag-ek közül választás
+Saját bejegyzések változtatása
+Más bejegyzéseinek a like-olása
+Süti kezelés ellenőrzése

@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Start Conduit appication
+      run: docker-compose up -d
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
@@ -24,11 +26,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-   
-   # - name: Test with pytest
-    #  run: |
-     #  pytest --alluredir=allure-results
+        if [ -f seleniumide-test/requirements.txt ]; then pip install -r seleniumide-test/requirements.txt; fi
     
       # Nodejs telepítés
         
@@ -63,9 +61,12 @@ jobs:
   # Selenium Side Runner futtatása   
     
     - name: Run Tests
-      run:
-          selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" test.side
-        
+      run: |
+          selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" seleniumide-test/registration.side
+
+    - name: Test with pytest
+      run: |
+        pytest seleniumide-test/ --alluredir=allure-results
 
     - name: Get Allure history
       uses: actions/checkout@v2

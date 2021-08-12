@@ -1,15 +1,12 @@
-FROM node:12
+FROM debian:stable-slim
 
 RUN apt update -y \
   && apt clean \
   && apt install bash curl unzip -y \
-  && rm -rf node_modules \
+  && apt install -y --no-install-recommends nodejs \
+  && apt install -y --no-install-recommends npm \
   && npm install -g npm@latest
 
-RUN curl -fsSL https://deno.land/x/install/install.sh | DENO_INSTALL=/usr/local sh -s v1.10.3
+RUN curl -fsSL https://deno.land/x/install/install.sh | DENO_INSTALL=/usr/local sh -s v1.5.4
 RUN export DENO_INSTALL="/usr/bin"
 RUN export PATH="$DENO_INSTALL/bin:$PATH"
-
-COPY ./drash-entrypoint.sh /drash-entrypoint.sh
-RUN chmod +x /drash-entrypoint.sh
-ENTRYPOINT ["/drash-entrypoint.sh"]

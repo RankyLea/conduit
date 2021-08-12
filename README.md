@@ -16,7 +16,7 @@ Run this command:
 docker-compose up -d
 ```
 
-or if you need logs live on your scren run
+or if you need logs live on your screen run
 ```
 docker-compose up
 ```

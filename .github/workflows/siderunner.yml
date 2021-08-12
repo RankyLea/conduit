@@ -16,7 +16,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Start Conduit appication
+    - name: Start Conduit application
       run: docker-compose up -d
     - name: Set up Python 3.9
       uses: actions/setup-python@v2

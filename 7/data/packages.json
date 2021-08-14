@@ -1,43 +1,5 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "children" : [ {
-    "name" : "seleniumide-tests",
-    "children" : [ {
-      "name" : "test_conduit_login",
-      "children" : [ {
-        "name" : "test_login",
-        "uid" : "6fc40882cdf49fc9",
-        "parentUid" : "a509bd5fd55c0c4654560afce72f156b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1624283724319,
-          "stop" : 1624283724319,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a509bd5fd55c0c4654560afce72f156b"
-    }, {
-      "name" : "test_conduit_registration",
-      "children" : [ {
-        "name" : "test_registration",
-        "uid" : "97cfd1ae98a9920f",
-        "parentUid" : "0bf46f3bf102fca0f501a2b0b5c1f0e2",
-        "status" : "broken",
-        "time" : {
-          "start" : 1624283735143,
-          "stop" : 1624283735143,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0bf46f3bf102fca0f501a2b0b5c1f0e2"
-    } ],
-    "uid" : "ec4872a699db5a7b1581c6da14041c06"
-  } ],
+  "children" : [ ],
   "name" : "packages"
 }

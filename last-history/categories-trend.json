@@ -1,13 +1,3 @@
 [ {
-  "buildOrder" : 16,
-  "reportUrl" : "https://RankyLea.github.io/conduit/16/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
-}, {
-  "buildOrder" : 15,
-  "reportUrl" : "https://RankyLea.github.io/conduit/15/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
-}, {
   "data" : { }
 } ]

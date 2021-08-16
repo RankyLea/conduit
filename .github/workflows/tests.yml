@@ -63,12 +63,12 @@ jobs:
           PUBLISH_DIR: allure-history
           
       - name: Collect docker logs
-         uses:jwalton/gh-docker-logs@v1
+        uses: jwalton/gh-docker-logs@v1
         with:
             dest: './logs'
         
       - name: Archive execution artifacts
-         uses:actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
          name: docker-logs
          path: ./log

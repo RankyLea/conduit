@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "NameError: name 'driver' is not defined",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "d8b73062e72f8531",
+        "parentUid" : "bd2d49163f853b6fdbb44ba8e98870b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629125247224,
+          "stop" : 1629125250924,
+          "duration" : 3700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd2d49163f853b6fdbb44ba8e98870b8"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[4]/div/button\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_logout",
+        "uid" : "66cb5861f2d5919e",
+        "parentUid" : "fcbaf305594e1029aecc1ce5bedab79c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629125251247,
+          "stop" : 1629125255017,
+          "duration" : 3770
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcbaf305594e1029aecc1ce5bedab79c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

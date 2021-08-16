@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://RankyLea.github.io/conduit",
+  "buildOrder" : 28,
+  "buildName" : "GitHub Actions Run #1135874159",
+  "buildUrl" : "https://github.com/RankyLea/conduit/actions/runs/1135874159",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://RankyLea.github.io/conduit/28/"
+} ]

@@ -13,40 +13,63 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Set up Python 3.9.5
-        uses:action/setuo-python@v2
+      - name: Set up Python 3.9.6
+        uses: action/setuo-python@v2
         with:
-          python-version:3.9.5
+          python-version: 3.9.6
           
-      -name: Install dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f tests/requirements.txt ]; then pip install -r     
-      tests/requirements.txt; fi
+          if [ -f tests/requirements.txt ]; then pip install -r Selenium-Tests/requirements.txt; fi
       
       - name: Install Chrome  
         run: |     
           sudo apt install google-chrome-stable
          
-     - run: |
+      - run: |
           docker-compose up -d
      
-     - name: Sleep for 60 seconds
+      - name: Sleep for 60 seconds
         run: sleep 60s
         shell: bash
         
-     - name: Test with pytest   
-        run:  |
-          pytest
-          
-     - name: Collect docker logs
-       uses: jwalton/gh-docker-logs@v1
-       with:
-        dest: './logs'
+      - name: Test with pytest
+        run: |
+          pytest --alluredir=allure-results
         
-     - name: Archive execution artifacts
-       uses: actions/upload-artifact@v2
-       with:    
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+        
+      - name: Allure Report action from marketplace
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
+        
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+          
+      - name: Collect docker logs
+         uses:jwalton/gh-docker-logs@v1
+        with:
+            dest: './logs'
+        
+      - name: Archive execution artifacts
+         uses:actions/upload-artifact@v2
+        with:
          name: docker-logs
          path: ./log
         

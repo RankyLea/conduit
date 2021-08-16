@@ -63,11 +63,9 @@ jobs:
     - name: Run Tests
       run: |
           selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" seleniumide-test/registration.side
-
     - name: Test with pytest
       run: |
         pytest seleniumide-tests/ --alluredir=allure-results
-
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()
@@ -91,17 +89,3 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
-
-
-
-
- 
-        
-        
-
-
-  
-  
-
-        
-

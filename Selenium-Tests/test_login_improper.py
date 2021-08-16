@@ -47,7 +47,7 @@ class TestLogin:
         element = self.driver.find_element(By.CSS_SELECTOR, ".btn")
         actions = ActionChains(self.driver)
         actions.move_to_element(element).perform()
-        driver.find_element_by_xpath('/html/body/div[2]/div/div[4]/div/button').click()
+        self.driver.find_element_by_xpath('/html/body/div[2]/div/div[4]/div/button').click()
 
 # Helytelen email formátum (nincs @ jel)
 

@@ -3,6 +3,7 @@ import time
 import json
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 from random_signup import my_test_user
 from random_signup import my_email
 from random_signup import my_password
@@ -11,9 +12,13 @@ URL = "http://conduitapp.progmasters.hu:1667"
 # URL = "http://localhost:1667/"
 
 
+
 class TestRegistration:
     def setup_method(self):
-        self.driver = webdriver.Chrome(ChromeDriverManager().install())
+        chrome_options = Options()
+        chrome_options.add_argument("--disable-extensions")
+        chrome_options.add_argument("--headless")
+        self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
     def teardown_method(self):
         self.driver.close()

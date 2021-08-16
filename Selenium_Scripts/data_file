@@ -1,0 +1,179 @@
+CONDUIT
+
+Teszteléshez különféle adatok és szövegek
+
+
+Regisztrációhoz és/vagy Bejelentkezéshez:
+
+user name_1: Kockás Peti
+email_1: petti.kockas@gmail.com
+password_1: KockasPeti123
+
+user name2: Pöttyös Panni
+email_2: pottyos.panni@hotmail.com
+password_2: PottyosPanni456
+
+user name_3: Mikka Makka
+email_3: mikka.makka@yahoo.com
+password_3: MikkaMakka789
+
+
+ testuser1@example.com / Abcd123$
+ testuser2@example.com / Abcd123$
+ testuser3@example.com / Abcd123$
+ testuser4@example.com / Abcd123$
+ testuser5@example.com / Abcd123$
+
+
+My First Article
+
+Title: Pumi legyen, vagy inkább Puli?
+Summary: Magyar terelőkutya verseny
+Details:
+Őshonos magyar terelőkutyák versenyét rendezi meg a Duna-Dráva Nemzeti Park augusztus 14-én a Dráva menti Őrtilos település melletti Látogató Központja területén.
+A versenyen minden fajta őshonos terelőkutya részt vehet, ahol a feladat egy kisebb nyáj „igazgatása” a pásztor (gazda) utasításai szerint.
+A legügyesebb kutyák és gazdáik díjazásban részesülnek, de üres kézzel (vagy manccsal) senkinek sem kell távoznia.
+Enter tags: terelőkutya, Dráva
+
+My Second Article
+
+Title: Menta
+Summary: Menta, mint gyógynövény
+Details: A menta egy patakpartokon növő lágyszárú gyógynövény. Jellegzetes illatával eltéveszthetetlen. Frissen és szárítva is finom tea készíthető belőle.
+Enter tags: menta
+
+
+My Third Article
+
+Title: Lámpás
+Summary: Lakik benne dzsinn?
+Details: Indiában a lámpásokban néha laknak dzsinnek. De csak a szerencsések fedezik fel.
+Enter tags: dzsinn
+
+My Fourth Article
+
+Title: Szentendre
+Summary: A művészek városa
+Details: Szentendre a művészeiről híres leginkább. Festői kis régi utcái, sikátorai valóban még az átlagembert is megihletik.
+Enter tags: sikátor
+
+My Fifth Article
+
+Title: Felhők
+Summary: Felhő fajták
+Details: Az égen most bárányfelhők úsznak.
+Enter tags: felhő
+
+My Sixth Article
+
+Title: Képek
+Summary: Természetfotók
+Details: Az interneten rengeteg gyönyörű természet fotó látható.
+Enter tags: fotók
+
+
+My Seventh Article
+
+Title: Perecek
+Summary: Sós perec
+Details: Gyerekek, gyerekek, szeretik a perecet.
+Sósat, sósat, jó ropogósat.
+Enter tags: perec
+
+My Eighth Article
+
+Title: Őszibarack
+Summary: A nyár legédesebb gyümölcse
+Details: Minden nyáron az augusztust várom. Mert ilyenkor érik az őszibarack. Rengeteget meg bírnék belőle enni. És lekvárnak is nagyon finom.
+Enter tags: őszibarack
+
+
+My Eighth Article
+
+Title: Próba valami
+Summary: Valami próbálás
+Details: Megpróbálom, hogy működik-e a valami.
+Enter tags: valami
+
+My Ninth Article
+
+Title: Ember
+Summary: Versike
+Details: Volt egyszer egy ember, szakálla volt kender.
+Elégett a kender, megmaradt az ember.
+Enter tags: kender, szakáll, ember
+
+My Tenth Article
+
+Title: Szabódal
+Summary: Versike2
+Details: Becses nevem
+Bakó Manó –
+Nyissz!
+Makón vagyok
+zakószabó –
+Nyassz!
+Makón ahány
+zakót szabok –
+Nyussz!
+Annyi bakó
+bankót kapok –
+Nyissz! Nyassz! Nyussz!
+Enter tags: szabó, zakó, bankó
+
+My Eleventh Article
+
+Title: Törpetánc
+Summary: Versike3
+Details: Fenn a hegyen,
+körbe-körbe…
+Tűztáncot jár
+három törpe.
+Enter tags: törpe
+
+My Twelveth Article
+
+Title: Bőrönd Ödön
+Summary: Versike4
+Details: Bőrönd Ödön
+a Köröndön
+Ül a kövön,
+Ül a kövön
+Feketeszínű böröndön.
+Enter tags: bőrönd, kő
+
+My Thirteenth Article
+
+Title: Mondjam még?
+Summary: Versike5
+Details: Volt egy dongó,
+meg egy légy,
+tovább is van,
+mondjam még?
+– Mondjad!
+Enter tags: dongó, légy
+
+My Fourteenth Article
+
+Title: Harmonika
+Summary: Gárdonyi Géza verse
+Details: Ó, talán ez igaz sem volt,
+ezt csupán csak álmodtam:
+nyári estén, csöndes estén
+ablakánál állottam.
+Fenn az égen csillagezrek,
+lenn a földön lágy homály:
+valahol a faluvégen
+harmonika muzsikál.
+Enter tags: harmonika
+
+My Fifteenth Article
+
+Title: Kertész leszek
+Summary: József Attila verse
+Details: Kertész leszek, fát nevelek,
+kelő nappal én is kelek,
+nem törődök semmi mással,
+csak a beojtott virággal.
+Enter tags: virág, kertész
+

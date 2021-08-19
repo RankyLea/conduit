@@ -33,13 +33,9 @@ try:
 
     sign_in_btn = driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button')
     sign_in_btn.click()
+    time.sleep(3)
 
-    # element = driver.find_element(By.CSS_SELECTOR, ".btn")
-    # actions = ActionChains(driver)
-    # actions.move_to_element(element).perform()
-    # driver.find_element_by_xpath('/html/body/div[2]/div/div[4]/div/button').click()
-
-    logout = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a')
+    logout = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a/i')
     logout.click()
 
 finally:

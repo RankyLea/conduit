@@ -39,12 +39,12 @@ class TestLogout:
 
         sign_in_btn = self.driver.find_element_by_xpath('//form/button')
         sign_in_btn.click()
+        time.sleep(3)
 
-        element = self.driver.find_element(By.CSS_SELECTOR, ".btn")
-        actions = ActionChains(self.driver)
-        actions.move_to_element(element).perform()
-        self.driver.find_element_by_xpath('/html/body/div[2]/div/div[4]/div/button').click()
-
-        logout = self.driver.find_element_by_xpath('//ul/li[5]/a')
+        logout = self.driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a/i')
         logout.click()
 
+        # element = self.driver.find_element(By.CSS_SELECTOR, ".btn")
+        # actions = ActionChains(self.driver)
+        # actions.move_to_element(element).perform()
+        # self.driver.find_element_by_xpath('/html/body/div[2]/div/div[4]/div/button').click()

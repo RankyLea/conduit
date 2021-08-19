@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az39-896",
+    "children" : [ {
+      "name" : "3674-MainThread",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "26e763c05b4c1da7",
+        "parentUid" : "5f7787e643895093f11a0639f073b24e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629404347919,
+          "stop" : 1629404351167,
+          "duration" : 3248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_registration",
+        "uid" : "b4632cb0a691ee8e",
+        "parentUid" : "5f7787e643895093f11a0639f073b24e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629404365236,
+          "stop" : 1629404368980,
+          "duration" : 3744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_logout",
+        "uid" : "64e8e046e5470875",
+        "parentUid" : "5f7787e643895093f11a0639f073b24e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629404352610,
+          "stop" : 1629404358851,
+          "duration" : 6241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "3b4c424857845a7c",
+        "parentUid" : "5f7787e643895093f11a0639f073b24e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629404342114,
+          "stop" : 1629404346521,
+          "duration" : 4407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_registration",
+        "uid" : "737abf6e7e6aed88",
+        "parentUid" : "5f7787e643895093f11a0639f073b24e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629404360189,
+          "stop" : 1629404363913,
+          "duration" : 3724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f7787e643895093f11a0639f073b24e"
+    } ],
+    "uid" : "451fcf5e8b63021e5f8d888c983d04c8"
+  } ],
+  "name" : "timeline"
+}

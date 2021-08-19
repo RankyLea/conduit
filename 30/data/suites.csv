@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 19 19:17:42 GMT 2021","Thu Aug 19 19:17:46 GMT 2021","4155","Selenium-Tests","test_registration_KP","TestRegistration","","","test_registration",""
+"broken","Thu Aug 19 19:17:29 GMT 2021","Thu Aug 19 19:17:35 GMT 2021","6630","Selenium-Tests","test_logout","TestLogout","","","test_logout",""
+"passed","Thu Aug 19 19:17:17 GMT 2021","Thu Aug 19 19:17:22 GMT 2021","5088","Selenium-Tests","test_login_1","TestLogin","","","test_login",""
+"passed","Thu Aug 19 19:17:37 GMT 2021","Thu Aug 19 19:17:41 GMT 2021","4165","Selenium-Tests","test_registration_1","TestRegistration","","","test_registration",""
+"broken","Thu Aug 19 19:17:24 GMT 2021","Thu Aug 19 19:17:27 GMT 2021","3819","Selenium-Tests","test_login_improper","TestLogin","","","test_login",""

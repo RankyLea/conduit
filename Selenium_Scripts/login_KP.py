@@ -4,10 +4,6 @@ import json
 import random
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
-from random_signup import my_test_user
-from random_signup import my_email
-from random_signup import my_password
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 

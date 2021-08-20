@@ -15,7 +15,7 @@ URL = "http://conduitapp.progmasters.hu:1667"
 # URL = "http://localhost:1667/"
 
 
-class TestLogin:
+class TestLoginImproper:
     def setup_method(self):
         chrome_options = Options()
         chrome_options.add_argument("--disable-extensions")
@@ -25,7 +25,7 @@ class TestLogin:
     def teardown_method(self):
         self.driver.close()
 
-    def test_login(self):
+    def test_improper_login(self):
         self.driver.get(URL)
         time.sleep(2)
         sign_in = self.driver.find_element_by_xpath('//ul/li[3]/a')
@@ -67,7 +67,7 @@ class TestLogin:
         actions.move_to_element(element).perform()
         self.driver.find_element_by_xpath('/html/body/div[2]/div/div[4]/div/button').click()
 
-# Helytelen email formátum (nincs @ domain név megadva)
+# Helytelen email formátum (nincs domain név megadva)
 
         email_field = self.driver.find_element_by_xpath('//form/fieldset[1]/input[1]')
         email_field.clear()

@@ -1,15 +1,9 @@
 import time
-import pytest
-import time
-import json
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
-from random_signup import my_test_user
-from random_signup import my_email
-from random_signup import my_password
 
 URL = "http://conduitapp.progmasters.hu:1667"
 # URL = "http://localhost:1667/"

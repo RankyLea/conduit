@@ -11,6 +11,7 @@ URL = "http://conduitapp.progmasters.hu:1667"
 try:
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get(URL)
+    driver.set_window_size(1552, 840)
     time.sleep(2)
 
     sign_in = driver.find_element_by_xpath('//ul/li[2]/a')
@@ -27,8 +28,9 @@ try:
     sign_in_btn = driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button')
     sign_in_btn.click()
 
-    ok_btn = driver.find_element_by_xpath('//div/button')
-    ok_btn.click()
+    driver.get_cookies()
+    cookie_accept = driver.find_element_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[2]/div')
+    cookie_accept.click()
 
 finally:
     pass

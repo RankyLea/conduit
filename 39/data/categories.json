@@ -1,0 +1,103 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//form/fieldset[3]/input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "3c8a5146e831576",
+        "parentUid" : "cb96ba5c0eea58d3db12ec5c38b9bbc4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629795497615,
+          "stop" : 1629795500778,
+          "duration" : 3163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "c7a2a34fcca918dc",
+        "parentUid" : "cb96ba5c0eea58d3db12ec5c38b9bbc4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629795512613,
+          "stop" : 1629795515621,
+          "duration" : 3008
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb96ba5c0eea58d3db12ec5c38b9bbc4"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[2]/a/i\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_creation_new_post",
+        "uid" : "407ac03f49717bcc",
+        "parentUid" : "501917d84c17a75b9e981c0a13cb5cee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629795502158,
+          "stop" : 1629795502172,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_creation_new_post",
+        "uid" : "a73c00a0fdad9ef6",
+        "parentUid" : "501917d84c17a75b9e981c0a13cb5cee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629795511277,
+          "stop" : 1629795511291,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "501917d84c17a75b9e981c0a13cb5cee"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div/div/span/a/i\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_edit_post",
+        "uid" : "1b0638e9a0c87f96",
+        "parentUid" : "5cff716eba1061fe06794ff03508fbdc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629795502489,
+          "stop" : 1629795502503,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5cff716eba1061fe06794ff03508fbdc"
+    }, {
+      "name" : "NameError: name 'Options' is not defined",
+      "children" : [ {
+        "name" : "test_improper_login",
+        "uid" : "935fc9fc8bfb1f27",
+        "parentUid" : "310689b2f260857f55d0d813e27ddfd5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629795524522,
+          "stop" : 1629795524522,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "310689b2f260857f55d0d813e27ddfd5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

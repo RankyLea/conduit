@@ -1,0 +1,120 @@
+{
+  "uid" : "935fc9fc8bfb1f27",
+  "name" : "test_improper_login",
+  "fullName" : "Selenium-Tests.test_login_improper.TestLoginImproper#test_improper_login",
+  "historyId" : "eedb9c15d1434f05dbaa2372f0a40dbf",
+  "time" : {
+    "start" : 1629795524522,
+    "stop" : 1629795524522,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'Options' is not defined",
+  "statusTrace" : "self = <test_login_improper.TestLoginImproper object at 0x7fbb36047a90>\n\n    def setup_method(self):\n>       chrome_options = Options()\nE       NameError: name 'Options' is not defined\n\nSelenium-Tests/test_login_improper.py:14: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestLoginImproper",
+    "time" : {
+      "start" : 1629795524523,
+      "stop" : 1629795524523,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'Options' is not defined\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/_pytest/fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/_pytest/fixtures.py\", line 925, in call_fixture_func\n    fixture_result = next(generator)\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/_pytest/python.py\", line 841, in xunit_setup_method_fixture\n    _call_with_optional_argument(func, method)\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/_pytest/python.py\", line 741, in _call_with_optional_argument\n    func()\n  File \"/home/runner/work/conduit/conduit/Selenium-Tests/test_login_improper.py\", line 14, in setup_method\n    chrome_options = Options()\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Selenium-Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_improper"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginImproper"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-737"
+  }, {
+    "name" : "thread",
+    "value" : "3650-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Selenium-Tests.test_login_improper"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "6603fd48b62646b1",
+        "reportUrl" : "https://RankyLea.github.io/conduit/38//#testresult/6603fd48b62646b1",
+        "status" : "broken",
+        "statusDetails" : "NameError: name 'Options' is not defined",
+        "time" : {
+          "start" : 1629794074528,
+          "stop" : 1629794074528,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ea70619e12af37dc",
+        "reportUrl" : "https://RankyLea.github.io/conduit/37//#testresult/ea70619e12af37dc",
+        "status" : "broken",
+        "statusDetails" : "NameError: name 'Options' is not defined",
+        "time" : {
+          "start" : 1629793233810,
+          "stop" : 1629793233810,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "efcefab141e3dd72",
+        "reportUrl" : "https://RankyLea.github.io/conduit/36//#testresult/efcefab141e3dd72",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[4]/div/button\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629792298166,
+          "stop" : 1629792301385,
+          "duration" : 3219
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "935fc9fc8bfb1f27.json",
+  "parameterValues" : [ ]
+}

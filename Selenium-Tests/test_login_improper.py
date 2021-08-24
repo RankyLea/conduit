@@ -3,7 +3,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.chrome.options import Options
+
 
 URL = "http://conduitapp.progmasters.hu:1667"
 # URL = "http://localhost:1667/"
@@ -80,3 +80,5 @@ class TestLoginImproper:
         actions = ActionChains(self.driver)
         actions.move_to_element(element).perform()
         self.driver.find_element_by_xpath('/html/body/div[2]/div/div[4]/div/button').click()
+
+

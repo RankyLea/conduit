@@ -9,7 +9,6 @@ from random_signup import my_test_user
 from random_signup import my_email
 from random_signup import my_password
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
 
 URL = "http://conduitapp.progmasters.hu:1667"
 # URL = "http://localhost:1667/"

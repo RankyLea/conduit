@@ -4,11 +4,12 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
+
 URL = "http://conduitapp.progmasters.hu:1667"
 # URL = "http://localhost:1667/"
 
 
-class TestCreateEditPost:
+class TestCreationPost:
     def setup_method(self):
         chrome_options = Options()
         chrome_options.add_argument("--disable-extensions")

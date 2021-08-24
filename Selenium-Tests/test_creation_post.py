@@ -27,16 +27,17 @@ class TestCreationPost:
         sign_in = self.driver.find_element_by_xpath('//ul/li[2]/a')
         sign_in.click()
 
-        email_field = self.driver.find_element_by_xpath('//form/fieldset[2]/input')
+        email_field = self.driver.find_element_by_xpath('//form/fieldset[1]/input[1]')
         email_field.click()
         email_field.send_keys("petti.kockas@gmail.com")
 
-        password_field = self.driver.find_element_by_xpath('//form/fieldset[3]/input')
+        password_field = self.driver.find_element_by_xpath('//form/fieldset[2]/input[1]')
         password_field.click()
         password_field.send_keys("KockasPeti123")
 
-        sign_in_btn = self.driver.find_element_by_xpath('//form/button')
+        sign_in_btn = self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button')
         sign_in_btn.click()
+        time.sleep(3)
 
     def test_creation_new_post(self):
         new_article_btn = self.driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a/i')

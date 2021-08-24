@@ -23,8 +23,9 @@ class TestCreationPost:
         self.driver.get(URL)
         self.driver.set_window_size(1552, 840)
         time.sleep(2)
-        sign_up = self.driver.find_element_by_xpath('//ul/li[3]/a')
-        sign_up.click()
+
+        sign_in = self.driver.find_element_by_xpath('//ul/li[2]/a')
+        sign_in.click()
 
         email_field = self.driver.find_element_by_xpath('//form/fieldset[2]/input')
         email_field.click()

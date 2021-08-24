@@ -11,7 +11,6 @@ URL = "http://conduitapp.progmasters.hu:1667"
 # URL = "http://localhost:1667/"
 
 
-
 class TestRegistration:
     def setup_method(self):
         chrome_options = Options()

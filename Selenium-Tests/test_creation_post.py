@@ -69,3 +69,6 @@ class TestCreationPost:
         home_btn = self.driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[1]/a')
         home_btn.click()
 
+        home_btn = self.driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[1]/a')
+        home_btn.click()
+

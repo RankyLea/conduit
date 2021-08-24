@@ -52,8 +52,8 @@ class TestCreationPost:
 
      # Delete article
 
-        del_article_btn = driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div/div/span/button')
+        del_article_btn = self.driver.find_element_by_xpath('//*[@id="app"]/div/div[1]/div/div/span/button')
         del_article_btn.click()
 
-        home_btn = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[1]/a')
+        home_btn = self.driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[1]/a')
         home_btn.click()

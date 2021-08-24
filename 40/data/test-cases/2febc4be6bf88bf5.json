@@ -1,0 +1,156 @@
+{
+  "uid" : "2febc4be6bf88bf5",
+  "name" : "test_login",
+  "fullName" : "Selenium-Tests.test_creation_post.TestCreationPost#test_login",
+  "historyId" : "c5f5b0d0326d974338343413b98cc869",
+  "time" : {
+    "start" : 1629796476688,
+    "stop" : 1629796483220,
+    "duration" : 6532
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestCreationPost",
+    "time" : {
+      "start" : 1629796475503,
+      "stop" : 1629796476687,
+      "duration" : 1184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9ad6a1107b5546d8",
+      "name" : "log",
+      "source" : "9ad6a1107b5546d8.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "f5fcb21628fb5749",
+      "name" : "stderr",
+      "source" : "f5fcb21628fb5749.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestCreationPost::0",
+    "time" : {
+      "start" : 1629796483221,
+      "stop" : 1629796483288,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Selenium-Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_creation_post"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreationPost"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-939"
+  }, {
+    "name" : "thread",
+    "value" : "3633-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Selenium-Tests.test_creation_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "b925aa37e62f7417",
+        "reportUrl" : "https://RankyLea.github.io/conduit/39//#testresult/b925aa37e62f7417",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629795503828,
+          "stop" : 1629795509961,
+          "duration" : 6133
+        }
+      }, {
+        "uid" : "2f36e62630d470a8",
+        "reportUrl" : "https://RankyLea.github.io/conduit/38//#testresult/2f36e62630d470a8",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//form/fieldset[3]/input\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629794056701,
+          "stop" : 1629794060204,
+          "duration" : 3503
+        }
+      }, {
+        "uid" : "be49f25a1bb7d380",
+        "reportUrl" : "https://RankyLea.github.io/conduit/37//#testresult/be49f25a1bb7d380",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629793217115,
+          "stop" : 1629793220254,
+          "duration" : 3139
+        }
+      }, {
+        "uid" : "f0dfe88eed1c247c",
+        "reportUrl" : "https://RankyLea.github.io/conduit/36//#testresult/f0dfe88eed1c247c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629792280265,
+          "stop" : 1629792283384,
+          "duration" : 3119
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2febc4be6bf88bf5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,155 @@
+{
+  "uid" : "d7cb064757c34b96",
+  "name" : "test_login",
+  "fullName" : "Selenium-Tests.test_cookies.TestLogin#test_login",
+  "historyId" : "da6c8d8b4bde11654b7b372eda748991",
+  "time" : {
+    "start" : 1629796465458,
+    "stop" : 1629796470037,
+    "duration" : 4579
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestLogin",
+    "time" : {
+      "start" : 1629796463238,
+      "stop" : 1629796465401,
+      "duration" : 2163
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bd0d310a7cb441a4",
+      "name" : "log",
+      "source" : "bd0d310a7cb441a4.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "9bef8cc6f8b73542",
+      "name" : "stderr",
+      "source" : "9bef8cc6f8b73542.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1629796470038,
+      "stop" : 1629796470104,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Selenium-Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_cookies"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-939"
+  }, {
+    "name" : "thread",
+    "value" : "3633-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Selenium-Tests.test_cookies"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "67f85249b23e4938",
+        "reportUrl" : "https://RankyLea.github.io/conduit/39//#testresult/67f85249b23e4938",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629795492035,
+          "stop" : 1629795496292,
+          "duration" : 4257
+        }
+      }, {
+        "uid" : "78cb069594be1b94",
+        "reportUrl" : "https://RankyLea.github.io/conduit/38//#testresult/78cb069594be1b94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629794044405,
+          "stop" : 1629794050658,
+          "duration" : 6253
+        }
+      }, {
+        "uid" : "f3d4cee25a74dd2f",
+        "reportUrl" : "https://RankyLea.github.io/conduit/37//#testresult/f3d4cee25a74dd2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629793205734,
+          "stop" : 1629793209731,
+          "duration" : 3997
+        }
+      }, {
+        "uid" : "1bccaa030bee81fb",
+        "reportUrl" : "https://RankyLea.github.io/conduit/36//#testresult/1bccaa030bee81fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629792268661,
+          "stop" : 1629792272800,
+          "duration" : 4139
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d7cb064757c34b96.json",
+  "parameterValues" : [ ]
+}

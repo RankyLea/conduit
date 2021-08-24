@@ -1,0 +1,108 @@
+{
+  "uid" : "f0dfe88eed1c247c",
+  "name" : "test_login",
+  "fullName" : "Selenium-Tests.test_creation_post.TestCreationPost#test_login",
+  "historyId" : "c5f5b0d0326d974338343413b98cc869",
+  "time" : {
+    "start" : 1629792280265,
+    "stop" : 1629792283384,
+    "duration" : 3119
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestCreationPost",
+    "time" : {
+      "start" : 1629792279063,
+      "stop" : 1629792280263,
+      "duration" : 1200
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "14b04641c880b08d",
+      "name" : "log",
+      "source" : "14b04641c880b08d.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "5cb6ff3609e2e13b",
+      "name" : "stderr",
+      "source" : "5cb6ff3609e2e13b.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_TestCreationPost::0",
+    "time" : {
+      "start" : 1629792283385,
+      "stop" : 1629792283493,
+      "duration" : 108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Selenium-Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_creation_post"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreationPost"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-737"
+  }, {
+    "name" : "thread",
+    "value" : "3625-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Selenium-Tests.test_creation_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0dfe88eed1c247c.json",
+  "parameterValues" : [ ]
+}
